@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+:root {
+    --color-text1: white;
+    --color-text2: #555;
+
+    --font-italiana: 'Italiana', serif;
+    --font-viaoda: 'Italiana', serif;
+}
+
+html {
+    font-size: 62, 5%;
+
+}
+
+body {
+    margin: 0rem 5% 5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-image: url(imagens/topo.jpg);
+    background-size: cover;
+    background-position: left center;
+    height: 50rem;
+}
+
+.header__div {
+    background-color: black;
+    padding: 0.01rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__logo {
+    color: var(--color-text1);
+    font-size: 2rem;
+    margin-left: 15%;
+    flex-wrap: wrap;
+    letter-spacing: .2rem;
+}
+
+.header__nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-right: 10rem;
+}
+
+.header__nav a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    background-color: black;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.header__nav a:hover {
+    color: white;
+    text-shadow: .05rem .05rem 0 white;
+
+}
+
+.main {
+    margin: 5rem 15%;
+    color: var(--color-text2);
+
+}
+
+.main__section1 h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: var(--font-italiana);
+    letter-spacing: 0.2rem;
+}
+
+.main__section1 p {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6rem;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.list-idem {
+    /* flex-basis: 20rem; */
+    margin: 0;
+}
+
+.list-idem__image img {
+    width: 22rem;
+}
+
+.list-idem__content--name {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.list-idem__content--caracterisca {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.section2 {
+    background-image: url(imagens/bg_detalhe.png);
+    background-size: cover;
+    background-position: center;
+
+    max-height: 25%;
+    min-height: 69rem;
+    padding-top: 0.01rem;
+
+}
+
+.section2__content {
+    color: var(--color-text1);
+
+
+}
+
+.section2 h2 {
+    margin: 10% 10% 5%;
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    line-height: 6rem;
+    font-family: var(--font-viaoda);
+
+}
+
+.section2 p {
+    font-size: 1.8rem;
+    margin: 0 30% 0 15%;
+    letter-spacing: .2rem;
+    line-height: 2.5rem;
+}
+
+.section2__footer {
+
+    background-color: black;
+
+
+
+}
+
+.section2__footer p {
+    color: var(--color-text2);
+    font-size: 1.8rem;
+    padding: 5rem;
+    margin-top: 0;
+    text-align: center;
+
+}
